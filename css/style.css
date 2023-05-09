@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: red;
+}
+header {
+    display: flex;
+}
+img {
+    max-width: 100px;
+    min-width: 100px;
+}
+h1 {
+    font-size: 2.5rem;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+.SFW, .NSWF{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.img-row{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.red-line {
+    background-color: red;
+    padding: 1px;
+}
