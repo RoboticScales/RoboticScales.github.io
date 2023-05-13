@@ -123,6 +123,9 @@ a:active {
         width: 95%;
     }
     #logo{
-        max-width: 5rem;
+        width: 21vw;
+    }
+    h1{
+        font-size: 9vw;
     }
 }
